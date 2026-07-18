@@ -1,0 +1,5 @@
+{
+  "name": "Space Biology Engine",
+  "description": "A comprehensive frontend application for space biology research, featuring a knowledge graph, semantic search, and reporting/analytics dashboard.",
+  "requestFramePermissions": []
+}

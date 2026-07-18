@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space Biology Engine</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'nasa-dark': '#0d1117',
+              'nasa-dark-soft': '#161b22',
+              'nasa-border': '#30363d',
+              'nasa-light-gray': '#c9d1d9',
+              'nasa-medium-gray': '#8b949e',
+              'nasa-blue': '#58a6ff',
+              'nasa-blue-hover': '#1f6feb',
+            },
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "recharts": "https://aistudiocdn.com/recharts@^3.2.1",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.3",
+    "cytoscape": "https://aistudiocdn.com/cytoscape@3.29.2",
+    "react-cytoscapejs": "https://aistudiocdn.com/react-cytoscapejs@2.0.0",
+    "react-dropzone": "https://aistudiocdn.com/react-dropzone@14.2.3"
+  }
+}
+</script>
+</head>
+  <body class="bg-nasa-dark text-nasa-light-gray">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
